@@ -1,0 +1,79 @@
+autocomplete(arr) {
+    //   //autocomplete(input, arrayOfAutocompleteValues)
+    //   // var currentFocus;
+    //   // var inp = this.artistName;
+    //   var inputField = this.$refs.artistInput;
+    //   console.log("input field: " + inputField.id);
+    //   var a, b, i;
+    //   var val = this.artistName;
+    //   if(!val) { return false; }
+    //   this.currentFocus = -1;
+    //   a = document.createElement("DIV");
+    //   a.setAttribute("id", inputField.id + "autocomplete-list");
+    //   a.setAttribute("class", "autocomplete-items");
+    //   document.getElementsByClassName("autocomplete")[0].appendChild(a);
+    //   for(i = 0; i < arr.length; i++) 
+    //   {
+    //     if(arr[i].substring(0, val.length).toUpperCase() == val.toUpperCase()) 
+    //     {
+    //       b = document.createElement("DIV");
+    //       //Formatting text to bolden matching letters
+    //       b.innerHTML = "<strong>" + arr[i].substring(0, val.length) + "</strong>";
+    //       b.innerHTML += arr[i].substring(val.length);
+    //       //insert an input field that will hold the current array item's value
+    //       b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+
+    //       b.addEventListener("click", function() {
+    //         val = this.getElementsByTagName("input")[0].value;
+    //         // this.closeAllLists(document.getElementsByClassName("autocomplete")[0]);
+    //       });
+    //       a.appendChild(b);
+    //     }
+    //   }
+    // },
+    // //AUTOCOMPLETE HELPER FUNCTIONS:
+    // autocompleteScrollDown() {
+    //   // console.log(this.currentFocus);
+    //   var x = document.getElementById(this.$refs.artistInput + 'autocomplete-list')[0];
+    //   console.log(x);
+    //   if(x) { x = x.getElementsByTagName("div"); }
+    //   this.currentFocus++;
+    //   console.log(this.currentFocus);
+    //   this.addActive(x); //add this function
+    // },
+    // autocompleteScrollUp() {
+    //   // console.log(this.currentFocus);
+    //   var x = document.getElementsByName('autocomplete-list')[0];
+    //   if(x) { x = x.getElementsByTagName("div"); }
+    //   this.currentFocus--;
+    //   this.addActive(x);
+    // },
+    // addActive(x) {
+    //   // console.log("adding active!");
+    //   // console.log(x);
+    //   if(!x) { 
+    //     // console.log("returning false!");
+    //     return false; 
+    //     }
+    //   this.removeActive(x);
+    //   if(this.currentFocus >= x.length) { this.currentFocus = 0; }
+    //   if(this.currentFocus < 0) { this.currentFocus = (x.length - 1) }
+    //   console.log(x[this.currentFocus].classList);
+    //   x[this.currentFocus].classList.add("autocomplete-active");
+    //   console.log(x[this.currentFocus].classList);
+    // },
+    // removeActive(x) {
+    //   for (var i = 0; i < x.length; i++) {
+    //     x[i].classList.remove("autocomplete-active");
+    //   }
+    // },
+    // closeAllLists(elmnt) {
+    //   var x = document.getElementsByClassName("autocomplete-items");
+    //   for(var i = 0; i < x.length; i++) {
+    //     if( elmnt != x[i] && elmnt != document.getElementsByClassName("input-field")[0])
+    //     {
+    //       x[i].parentNode.removeChild(x[i]);
+    //     }
+    //   }
+    // }
+
